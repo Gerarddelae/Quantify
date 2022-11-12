@@ -63,6 +63,16 @@ export const Beam = () => {
     setVigas(filteredBeams);
   };
 
+  // Eliminar todas las vigas
+  const deleteAll = () => {
+    const confirm = window.confirm("Estas seguro?");
+    if (confirm) {
+      localStorage.clear();
+      setVigas(getDatafromLS());
+    } else {
+    }
+  };
+
   return (
     <div className="container mx-auto">
       <h1 className="h1 text-center">Qant 0.1</h1>
@@ -115,6 +125,13 @@ export const Beam = () => {
           />
           <button type="submit" className="btn btn-primary mb-6 col-12">
             Calcular
+          </button>
+          <button
+            type="button"
+            className="btn btn-danger mb-6 mt-2 col-12"
+            onClick={() => deleteAll()}
+          >
+            Borrar todo
           </button>
         </form>
       </div>
