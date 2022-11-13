@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { View } from "./View";
 import { Alerta } from "./Alerta";
+import { Total } from "./Total";
 
 export const Beam = () => {
   // extraer datos de Localstorage
@@ -75,9 +76,9 @@ export const Beam = () => {
 
   return (
     <div className="container mx-auto">
-      <h1 className="h1 text-center">Qant 0.1</h1>
+      <h1 className="h1 text-center">Qantify 0.1</h1>
       <div className="d-flex justify-content-center">
-        <form onSubmit={handleSubmit} className="col-4">
+        <form onSubmit={handleSubmit} className="col-lg-4 col-sm-8">
           <input
             name="nombre"
             id="nombre"
@@ -95,7 +96,7 @@ export const Beam = () => {
             id="altura"
             className="form-control mb-2"
             type="text"
-            placeholder="Altura viga"
+            placeholder="Altura viga (m)"
             required
             value={altura}
             autoComplete="off"
@@ -106,7 +107,7 @@ export const Beam = () => {
             id="base"
             className="form-control mb-2"
             type="text"
-            placeholder="Base viga"
+            placeholder="Base viga (m)"
             required
             value={base}
             autoComplete="off"
@@ -117,7 +118,7 @@ export const Beam = () => {
             id="largo"
             className="form-control mb-2"
             type="text"
-            placeholder="Largo viga"
+            placeholder="Largo viga (m)"
             required
             value={largo}
             autoComplete="off"
@@ -134,6 +135,7 @@ export const Beam = () => {
             Borrar todo
           </button>
         </form>
+        <Total vigas={vigas}/>
       </div>
       <Alerta repite={repite} setRepite={setRepite} />
       <View vigas={vigas} deleteBeam={deleteBeam} />
