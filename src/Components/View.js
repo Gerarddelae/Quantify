@@ -2,7 +2,7 @@ export const View = ({ vigas, deleteBeam }) => {
   return (
     <div className="d-flex flex-wrap align-items-center justify-content-center">
       {vigas.map((viga) => (
-        <div key={viga.nombre} className="card col-lg-2 my-3 mx-2 border-info">
+        <div key={viga.nombre} className="card bg-light col-lg-3 my-2 mx-2 border-info">
           <div className="card-body text-black">
             <h4 className="card-title">{viga.nombre}</h4>
             <p className="card-subtitle">Altura: {viga.altura} m</p>

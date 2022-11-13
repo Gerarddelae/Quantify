@@ -76,7 +76,7 @@ export const Beam = () => {
 
   return (
     <div className="container mx-auto">
-      <h1 className="h1 text-center">Qantify 0.1</h1>
+      <h1 className="h1 text-center logotext">Qantify 0.1.0</h1>
       <div className="d-flex justify-content-center">
         <form onSubmit={handleSubmit} className="col-lg-4 col-sm-8">
           <input
