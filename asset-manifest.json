@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Quantify/static/css/main.15c84d37.css",
-    "main.js": "/Quantify/static/js/main.04ca29cb.js",
+    "main.js": "/Quantify/static/js/main.853a8aca.js",
     "index.html": "/Quantify/index.html",
     "main.15c84d37.css.map": "/Quantify/static/css/main.15c84d37.css.map",
-    "main.04ca29cb.js.map": "/Quantify/static/js/main.04ca29cb.js.map"
+    "main.853a8aca.js.map": "/Quantify/static/js/main.853a8aca.js.map"
   },
   "entrypoints": [
     "static/css/main.15c84d37.css",
-    "static/js/main.04ca29cb.js"
+    "static/js/main.853a8aca.js"
   ]
 }
