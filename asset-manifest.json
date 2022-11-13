@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Quantify/static/css/main.15c84d37.css",
+    "main.js": "/Quantify/static/js/main.04ca29cb.js",
+    "index.html": "/Quantify/index.html",
+    "main.15c84d37.css.map": "/Quantify/static/css/main.15c84d37.css.map",
+    "main.04ca29cb.js.map": "/Quantify/static/js/main.04ca29cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15c84d37.css",
+    "static/js/main.04ca29cb.js"
+  ]
+}
