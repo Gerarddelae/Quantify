@@ -135,7 +135,7 @@ export const Beam = () => {
             Borrar todo
           </button>
         </form>
-        <Total vigas={vigas}/>
+        <Total vigas={vigas} />
       </div>
       <Alerta repite={repite} setRepite={setRepite} />
       <View vigas={vigas} deleteBeam={deleteBeam} />

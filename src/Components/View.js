@@ -8,7 +8,9 @@ export const View = ({ vigas, deleteBeam }) => {
             <p className="card-subtitle">Altura: {viga.altura} m</p>
             <p className="card-subtitle">Base: {viga.base} m</p>
             <p className="card-subtitle"> Largo: {viga.largo} m</p>
-            <p className="card-subtitle">volumen: {viga.volumen.toFixed(2)} m³</p>
+            <p className="card-subtitle">
+              volumen: {viga.volumen.toFixed(2)} m³
+            </p>
             <div className="d-flex flex-row-reverse">
               <button
                 className="btn btn-danger"
